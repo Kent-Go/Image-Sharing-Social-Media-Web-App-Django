@@ -1,0 +1,57 @@
+{% load static %}
+
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/fc1e235b2e.js"></script>
+  <link rel="shortcut icon" href="{% static 'assets1/favicon.svg' %}" type="image/x-icon">
+  <link rel="stylesheet" href="{% static 'assets2/style.css' %}">
+  <title>Instagram | Login</title>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="phone-app-demo"></div>
+      <div class="form-data">
+        <form action="" method="POST">
+            {% csrf_token %}
+          <div class="logo">
+            <img src="{% static 'assets2/images/logo.png' %}" alt="logo">
+          </div>
+          <!-- <input type="text" placeholder="Phone number, username, or email"> -->
+          <!-- <input type="password" placeholder="Password"> -->
+          {{form.username}}
+          {{form.password}}
+          <button class="form-btn" type="submit">Log in</button>
+          <!-- <a href="index.html" class="form-btn" type="submit">Log in</a> -->
+          <span class="has-separator" style="font-family: 'Open Sans', sans-serif;">Or</span>
+          <a class="facebook-login" href="#" style="font-family: 'Open Sans', sans-serif;">
+            <i class="fab fa-facebook-square"></i> Log in with Facebook
+          </a>
+          <a class="password-reset" href="#" style="font-family: 'Open Sans', sans-serif;">Forgot password?</a>
+        </form>
+        <div class="sign-up" style="font-family: 'Open Sans', sans-serif;">
+          Don't have an account? <a href="{% url 'register' %}">Sign up</a>
+        </div>
+        <div class="get-the-app">
+          <span style="font-family: 'Open Sans', sans-serif;">Get the app.</span>
+          <div class="badges">
+                        <img src="{% static 'assets2/images/app-store.png' %}" alt="app-store badge">
+
+            <img src="{% static 'assets2/images/google-play.png' %}" alt="google-play badge">
+
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
