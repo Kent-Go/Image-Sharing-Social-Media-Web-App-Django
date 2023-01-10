@@ -4,6 +4,13 @@
 An image-sharing social media application built using Django framework which allows users to create own contents, connect with others users and share informations. This app is built to explore, learn and practice using Django built-in features for full-stack web app development. Note that this app shares similar functionalities and templates with the official Instagram application.
 
 ### Tech:
+<code><img height="30" src="https://emojis.slackmojis.com/emojis/images/1643514188/1541/django.png?1643514188"></code>
+<code><img height="30" src="https://emojis.slackmojis.com/emojis/images/1643514187/1538/bootstrap.png?1643514187"></code>
+<code><img height="30" src="https://emojis.slackmojis.com/emojis/images/1643514044/32/python.png?1643514044"></code>
+<code><img height="30" src="https://emojis.slackmojis.com/emojis/images/1643514112/719/html5.png?1643514112"></code>
+<code><img height="30" src="https://emojis.slackmojis.com/emojis/images/1643514272/2411/css.jpg?1643514272"></code>
+<code><img height="30" src="https://emojis.slackmojis.com/emojis/images/1643514058/151/javascript.png?1643514058"></code>
+<br>
 Django, Bootstrap, Python, HTML, CSS, Javascript
 
 ### Features:
