@@ -1,4 +1,4 @@
-# Instagram-Clone-Django
+# Image-Sharing-Social-Media-Web-App-Django
 
 ### Description:
 An image-sharing social media application built using Django framework which allows users to create own contents, connect with others users and share informations. This app is built to explore, learn and practice using Django built-in features for full-stack web app development. Note that this app shares similar functionalities and templates with the official Instagram application.
